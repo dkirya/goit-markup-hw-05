@@ -421,7 +421,56 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-Subscribe">
+                <p class="text-footer">Subscribe</p>
+                <form class="email-form">
+                    <label for="email-id"></label>
+                    <input clas="email-form-input" type="email" id="email-id" placeholder="E-mail" name="email-form"/>
+                </form>
+                <button class="subscribe-button" type="submit">Subscribe</button>
+                <a href="" class="subscribe-link">
+                    <svg class="subscribe-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-subscribe"></use>
+                    </svg>
+                </a>
+            </div>
         </div>
     </footer>
+<!-- ====== BACKDROP ====== -->
+        <div class="backdrop">
+            <div class="modal">
+                <button class="modal-close-button" type="button">
+                    <svg class="modal-close-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-Vector-4"></use>
+                    </svg>
+                </button>
+                <p class="leave-contact">Leave your contacts and we will call you back</p>
+                <form class="leave-contact">
+                    <div class="leave-contact-field-wrapper">
+                        <label class="leave-contact-field-label" for="" >Name</label>
+                        <input class="leave-contact-input" type="text" id="user-name" name="user-name" pattern="[a-zA-Zа-яА-ЯїЇіІєЄґҐ']+" title="Dariia" required />
+                    </div>
+                    <div class="leave-contact-field-wrapper">
+                        <label class="leave-contact-field-label" for="">Phone</label>
+                        <input class="leave-contact-input" type="tel" id="user-phone" name="user-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" required/>
+                    </div>
+                    <div class="leave-contact-field-wrapper">
+                        <label class="leave-contact-field-label" for="">Email</label>
+                        <input class="leave-contact-input" type="email" id="user-email" name="user-email" required/>
+                    </div>
+                    <div class="leave-contact-field-wrapper">
+                        <label class="leave-contact-field-label" for="" >Comment</label>
+                        <textarea class="leave-contact-message" id="user-comment" name="user-comment" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div class="leave-contact-checkbox">
+                        <input class="leave-contact-checkbox" type="checkbox" id="privacy-policy" name="privacy-policy" value="true"/>
+                        <label for="" class="leave-contact-checkbox-label">
+                            I accept the terms and conditions of the <a href="" class="privacy-policy-link">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button class="leave-contact-submit" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
 </body>
 </html>
