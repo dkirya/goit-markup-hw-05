@@ -520,6 +520,10 @@ img {
     min-width: 165px;
     height: 40px;
 }
+.subscribe-button + .subscribe-link{
+    background-color: #404BBF;
+    fill: #FFFFFF;
+}
 /* ====== BACKDROP ====== */
 .backdrop{
     position: fixed;
