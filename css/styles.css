@@ -472,7 +472,7 @@ img {
     fill:#404bbf;
     
 }
-.text-footer-subscribe{
+.text-footer{
     font-weight: 500;
     margin-bottom: 16px;
     font-size: 16px;
@@ -482,8 +482,6 @@ img {
 }
 .email-form{
     display: flex;
-}
-.email-form-label{
     gap: 24px;
 }
 .email-form-input{
