@@ -542,15 +542,7 @@ img {
     visibility: visible;
     pointer-events: auto;
 }
-.leave-contact{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    max-width: 360px;
-    margin-bottom: 16px;
-}
+
 .modal{
     position: absolute;
     top: 50%;
@@ -599,6 +591,15 @@ img {
     color: #8e8f99;
     margin-bottom: 4px;
 
+}
+.leave-contact-titel{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    max-width: 360px;
+    margin-bottom: 16px;
 }
 .leave-contact-field-wrapper{
     margin-bottom: 8px;
